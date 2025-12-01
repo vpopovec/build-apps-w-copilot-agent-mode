@@ -5,6 +5,7 @@ from rest_framework.reverse import reverse
 from .models import User, Team, Activity, Workout, Leaderboard
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, WorkoutSerializer, LeaderboardSerializer
 
+# pass
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
     serializer_class = UserSerializer
