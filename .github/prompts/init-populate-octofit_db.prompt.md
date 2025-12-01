@@ -29,4 +29,4 @@ description: 'Setup, configure, and populate the octofit_db database with test d
 
 # Verification
 - After population, verify with `mongosh` that the `octofit_db` database contains the correct collections and test data.
-- Confirm Django REST API endpoints are available for all collections.
+- Confirm Django REST API endpoints are available for all collections
